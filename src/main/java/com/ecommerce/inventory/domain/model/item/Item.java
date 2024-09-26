@@ -5,11 +5,11 @@ import com.ecommerce.inventory.domain.enumerate.ItemStatus;
 
 public class Item {
   private String productId;
-  private int stock;
+  private Integer stock;
   private ItemStatus status;
   private LocalDateTime lastUpdated;
 
-  public Item(String productId, int stock, ItemStatus status, LocalDateTime lastUpdated) {
+  public Item(String productId, Integer stock, ItemStatus status, LocalDateTime lastUpdated) {
     this.productId = productId;
     this.stock = stock;
     this.status = status;
